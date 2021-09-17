@@ -1,124 +1,357 @@
 /* MOBILE PHONES AND ALL */
-*
-{
-    font-family: 'Poppins', sans-serif;
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Poppins", sans-serif;
 }
 
 /* NAVBAR */
 .navbar {
-    font-size: 16px;
-    z-index: 1;
+  font-size: 16px;
+  z-index: 1;
+}
+
+#navbar {
+  background-color: transparent;
 }
 
 .navbar img {
-    max-width: 60px;
-    max-height: 60px;
+  max-width: 60px;
+  max-height: 60px;
 }
 
 .navbar .navbarRight {
-    margin-right: 32px;
+  margin-right: 32px;
 }
 
 /* JUMBOTRON */
 
 .jumbotron {
-    background-image: url(/img/jumbotronKeraton.png); 
-    background-size: cover;
-    height: 664px;
-    position: relative;
+  background-image: url(/img/jumbotronKeraton.png);
+  background-size: cover;
+  height: 664px;
+  position: relative;
+  background-attachment: fixed;
 }
 
 .jumbotron .container {
-    z-index: 1;
-    position: relative;
+  z-index: 1;
+  position: relative;
 }
 
-.jumbotron .display-4  {
-    color: white;
-    position: absolute;
-    margin-top: 200px;
-    right: 0;
-    left: 0;
-    font-size: 50px;
-    font-family: 'Berkshire Swash', cursive;
-    text-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.7);
+.jumbotron .display-4 {
+  color: white;
+  position: absolute;
+  margin-top: 200px;
+  right: 0;
+  left: 0;
+  font-size: 50px;
+  font-family: "Berkshire Swash", cursive;
+  text-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.7);
 }
 
 .jumbotron::after {
-    content: '';
-    display: block;
-    width: 100%;
-    height: 100%;
-    background-image: linear-gradient(to bottom, rgba(0,0,0,1), rgba(0,0,0,0));
-    position: absolute;
-    bottom: 0;
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 0)
+  );
+  position: absolute;
+  bottom: 0;
+  background-attachment: fixed;
 }
 
 /* WHY EXSOL */
 
-.container-fluid #whyExsolBG{
-    background-color: #EEEBE3;
+.container-fluid #whyExsolBG {
+  background-color: #eeebe3;
+}
+
+#whyExsolBG {
+  background-color: #eeebe3;
 }
 
 .container #whyExsol {
-    margin-top: 38px;
-    font-family: 'Berkshire Swash', cursive;
-    font-size: 35px;
+  margin-top: 38px;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 35px;
+  margin-bottom: 64px;
 }
 
 #weProvide {
-    margin-top: 50px;
+  margin-top: 50px;
 }
 
-#weProvide img {
-    width: 384px;
-    height: 216px;
-    margin: auto;
-    display: block;
+.whyExsol h3 {
+  /* margin-top: -px; */
+  font-size: 18px;
+  font-weight: 600;
 }
 
+.whyExsol .card {
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.25);
+  margin: auto auto 32px auto;
+  padding: 10px;
+  height: 324px;
+  max-width: 18rem;
+  max-height: 300px;
+  box-shadow: 1px 3px 10px -1px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 3px 10px -1px rgba(0, 0, 0, 0.2);
+  -moz-box-shadow: 1px 3px 10px -1px rgba(0, 0, 0, 0.2);
+}
+
+.whyExsol .card img {
+  width: 70%;
+  margin: auto;
+  height: 70%;
+}
+
+#lastCard {
+  margin-bottom: 88px;
+}
+
+/* GET TO KNOW MORE ABOUT EXSOL */
+
+.getToKnow h2 {
+  margin-top: 38px;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 35px;
+  margin-bottom: 44px;
+}
+
+.getToKnow iframe {
+  height: 135px;
+  width: 240px;
+}
+
+.getToKnow .row img {
+  width: 288px;
+  height: 162px;
+}
+
+.getToKnow .row #shortDescription {
+  margin-top: 48px;
+  font-size: 16px;
+}
+
+.getToKnow .misionVision img {
+  margin: 24px auto 16px auto;
+  border-radius: 100%;
+  width: 88px;
+  height: 88px;
+}
+
+.getToKnow .misionVisionHeader h4 {
+  font-weight: 600;
+}
+
+.getToKnow .misionVisionDetails p {
+  font-size: 14px;
+  margin-bottom: 102px;
+}
+
+/* GET THE APP */
+
+#getTheApp {
+  background-color: #eeebe3;
+}
+
+#getTheApp h2 {
+  margin-top: 64px;
+  font-family: "Berkshire Swash", cursive;
+  font-size: 35px;
+  margin-bottom: 36px;
+}
+
+#getTheApp .storeIcon img {
+  margin: 24px auto 64px auto;
+  width: 130px;
+}
+
+/* FOOTER */
+footer .firstRowFooter {
+  margin-top: 50px;
+}
+footer .row #contactUsOn p {
+  font-size: 12px;
+}
+
+footer #logoExsolFooter img {
+  width: 50px;
+  height: 50px;
+}
+
+footer #logoSocialMediaFooter img {
+  width: 25px;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+footer .copyright {
+  font-size: 14px;
+  margin-top: 64px;
+}
+
+footer {
+  width: 100%;
+}
 
 /* DESKTOP */
 
 @media (min-width: 992px) {
+  .navbar .navbar-brand img {
+    color: white;
+  }
 
-    .navbar .navbar-brand img {
-        color: white;
-    }
+  .navbar .logoVector {
+    filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(86deg)
+      brightness(100%) contrast(200%);
+  }
 
-    .navbar .logoVector {
-        filter: invert(100%) sepia(100%) saturate(0%) hue-rotate(86deg) brightness(100%) contrast(200%);
-    }
-    
-    .navbar-brand, .nav-link {
-        color: white !important;
-        text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.7);
-    }
+  .navbar-brand,
+  .nav-link {
+    color: white !important;
+    text-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.7);
+  }
 
-    
-    .jumbotron {
-        margin-top: -90px;
-        height: 981px;
-    } 
+  .jumbotron {
+    margin-top: -90px;
+    height: 981px;
+  }
 
-    .jumbotron .display-4 {
-        margin-top: 400px;
-    }
+  .jumbotron .display-4 {
+    margin-top: 400px;
+    font-size: 70px;
+  }
 
-    .container #whyExsol {
-        margin-top: 102px;
-        font-family: 'Berkshire Swash', cursive;
-        font-size: 35px;
-    }
+  .container #whyExsol {
+    margin-top: 102px;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 50px;
+  }
 
-    #weProvide {
-        margin-top: 100px;
-    }
+  #weProvide {
+    margin-top: 100px;
+  }
 
-    #weProvide img {
-        width: 576px;
-        height: 325px;
-        margin: auto;
-        display: block;
-    }
+  #weProvide img {
+    width: 576px;
+    height: 325px;
+    margin: auto;
+    display: block;
+  }
+
+  .whyExsol h3 {
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+
+  .whyExsol .card {
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 20px;
+    margin: auto auto 32px auto;
+    height: 500px;
+    max-width: 18rem;
+    max-height: 324px;
+    box-shadow: 1px 3px 10px -1px rgba(0, 0, 0, 0.2);
+    -webkit-box-shadow: 1px 3px 10px -1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 1px 3px 10px -1px rgba(0, 0, 0, 0.2);
+  }
+
+  .whyExsol .card img {
+    width: 70%;
+    margin: auto;
+    height: 70%;
+  }
+
+  .getToKnow h2 {
+    margin-top: 102px;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 50px;
+    margin-bottom: 64px;
+  }
+
+  .getToKnow .row img {
+    width: 576px;
+    height: 324px;
+  }
+
+  .getToKnow iframe {
+    height: 324px;
+    width: 576px;
+  }
+  .getToKnow .row #shortDescription {
+    margin-top: 48px;
+    font-size: 19.2px;
+  }
+
+  .getToKnow .misionVision img {
+    border-radius: 100%;
+    width: 102px;
+    height: 102px;
+    margin-top: 48px;
+  }
+
+  .getToKnow .misionVisionHeader h4 {
+    font-weight: 600;
+    font-size: 24px;
+  }
+
+  .getToKnow .misionVisionDetails p {
+    font-size: 16px;
+  }
+
+  #getTheApp h2 {
+    margin-top: 64px;
+    font-family: "Berkshire Swash", cursive;
+    font-size: 50px;
+    margin-bottom: 36px;
+  }
+
+  #getTheApp .storeIcon img {
+    margin: 24px auto 64px auto;
+    width: 250px;
+  }
+
+  footer {
+    width: 100%;
+  }
+
+  footer .firstRowFooter {
+    margin-top: 120px;
+  }
+
+  footer .container-fluid #containerFluidFooter {
+    margin-top: 102px;
+  }
+
+  footer .row #contactUsOn p {
+    font-size: 14px;
+  }
+
+  footer #logoExsolFooter img {
+    width: 80px;
+    height: 80px;
+  }
+
+  footer #logoSocialMediaFooter img {
+    width: 30px;
+    margin-left: 20px;
+    margin-top: 10px;
+  }
+
+  footer .copyright {
+    margin-top: 102px;
+  }
+
+  .container-fluid .footer {
+    background-color: white;
+  }
 }

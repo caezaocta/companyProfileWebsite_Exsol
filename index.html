@@ -32,8 +32,9 @@
     <!-- NAVBAR -->
     <div class="container">
         <nav class="navbar navbar-expand-lg navbar-light">
-            <div class="container-fluid">
-                <a class="navbar-brand" href="#"><img src="/img/logoExsol.svg" class="logoVector" alt="logoExsol"></a>
+            <div class="container-fluid" id="navbar">
+                <a class="navbar-brand" href="index.html"><img src="img/logoExsol.svg" class="logoVector"
+                        alt="logoExsol"></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                     aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -43,16 +44,13 @@
                     <div class="mx-auto"></div>
                     <ul class="navbar-nav">
                         <li class="nav-item  navbarRight">
-                            <a class="nav-link active" aria-current="page" href="#">Get The App</a>
+                            <a class="nav-link active" aria-current="page" href="#getTheApp">Unduh Aplikasi</a>
                         </li>
                         <li class="nav-item navbarRight">
-                            <a class="nav-link" href="#">Mission & Vision</a>
+                            <a class="nav-link" href="#getToKnow">Tentang</a>
                         </li>
                         <li class="nav-item navbarRight">
-                            <a class="nav-link" href="#">About</a>
-                        </li>
-                        <li class="nav-item navbarRight">
-                            <a class="nav-link" href="#">Contacts</a>
+                            <a class="nav-link" href="#contacts">Kontak</a>
                         </li>
 
                     </ul>
@@ -65,60 +63,165 @@
     <!-- JUMBOTRON -->
     <div class="jumbotron">
         <div class="container">
-            <h1 class="display-4 text-center">Explore The Diversity in Solo</h1>
+            <h1 class="display-4 text-center">Eksplor Keberagaman di Kota Solo</h1>
         </div>
     </div>
     <!-- AKHIR JUMBOTRON-->
 
     <!-- WHY EXSOL -->
-    <div class="container-fluid" id="whyExsolBG">
-        <div class="container">
+    <div class="container-fluid whyExsolBG" id="whyExsolBG">
+        <div class="container whyExsol">
             <div class="row">
                 <div class="col text-center">
-                    <h2 id="whyExsol">Why Exsol</h2>
+                    <h2 id="whyExsol">Mengapa Exsol?</h2>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-lg-4">
+                    <div class="card text-center">
+                        <img src="/img/packages.png" class="card-img-top" alt="logoPackages">
+                        <div class="card-body">
+                            <h3 class="card-title">Kami menyediakan paket wisata</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card text-center">
+                        <img src="/img/select.png" class="card-img-top" alt="logoSelect">
+                        <div class="card-body">
+                            <h3 class="card-title">Kustomisasi sendiri paket wisata anda</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="card text-center" id="lastCard">
+                        <img src="/img/introduce.png" class="card-img-top" alt="logoIntroduce">
+                        <div class="card-body">
+                            <h3 class="card-title">Kenal lebih dekat dengan budaya Kota Solo</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- AKHIR DARI WHY EXSOL -->
+
+    <!-- COMPANY PROFILE  -->
+    <div class="container-fluid getToKnowBG" id="getToKnow">
+        <div class="container getToKnow">
+            <div class="row">
+                <div class="col text-center">
+                    <h2>Tentang</h2>
                 </div>
             </div>
 
-            <div class="row align-items-center" id="weProvide">
-                <div class="col-lg-6 text-center">
-                    <h3>We Provide Packages</h3>
-                </div>
-                <div class="col-lg-6 text-center">
-                    <img src="" alt="gambar1WeProvidePackages">
-                </div>
-            </div>
-
-            <div class="row align-items-center" id="weProvide">
-                <div class="col-lg-6 text-center">
-                    <img src="" alt="gambar1WeProvidePackages">
-                </div>
-                <div class="col-lg-6 text-center">
-                    <h3>Or You Can Select Your Own Deals</h3>
-                </div>
-                
-            </div>
-
-            <div class="row align-items-center" id="weProvide">
-                <div class="col-lg-6 text-center">
-                    <h3>We Introduce You The Culture of Solo</h3>
-                </div>
-                <div class="col-lg-6 text-center">
-                    <img src="" alt="gambar1WeProvidePackages">
+            <div class="row justify-content-center">
+                <div class="col-m-12 text-center">
+                    <iframe src="https://www.youtube.com/embed/VwbmXf5ugPQ" title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen></iframe>
                 </div>
             </div>
 
+            <div class="row justify-content-center">
+                <div class="col-md-7 text-center" id="shortDescription">
+                    <p>Exsol merupakan aplikasi yang bergerak pada bidang pariwisata dengan menyediakan jasa wisata Kota
+                        Solo. Exsol (Explore Solo) dimulai dengan menghadirkan paket wisata Solo selama sehari yang
+                        meliputi tempat wisata, wisata kuliner, transportasi, dan tour guide. </p>
+                </div>
+            </div>
+
+            <div class="row misionVision justify-content-center">
+                <div class="col-6 text-center">
+                    <img src="/img/vision.png" alt="exsolVision">
+                </div>
+                <div class="col-6 text-center">
+                    <img src="/img/mision.png" alt="exsolMision">
+                </div>
+
+            </div>
+
+            <div class="row justify-content-center misionVisionHeader">
+                <div class="col-6 text-center">
+                    <h4>Visi</h4>
+                </div>
+                <div class="col-6 text-center">
+                    <h4>Misi</h4>
+                </div>
+            </div>
+            <div class="row justify-content-center misionVisionDetails">
+                <div class="col-6 text-center">
+                    <p class="visionText">Menjadi startup platform penyedia jasa paket wisata Solo yang memudahkan
+                        hubungan antara wisatawan dengan tempat wisata serta berperan sebagai media pengenalan tempat
+                        wisata Kota Solo.</p>
+                </div>
+                <div class="col-6 text-center">
+                    <p class="misionText">1. Menyediakan jasa paket wisata sehari yang meliputi tempat wisata, wisata
+                        kuliner, transportasi, dan tour guide. <br>
+                        2. Menjadi media penghubung antara wisatawan dengan tempat pariwisata Kota Solo. <br>
+                        3. Menyediakan informasi seputar wisata dan berbagai event di Kota Solo..</p>
+                </div>
+            </div>
         </div>
     </div>
 
-    <!-- AKHIR DARI WHY EXSOL -->
+    <!-- AKHIR DARI COMPANY PROFILE-->
+
+    <!-- GET THE APP -->
+    <div class="container-fluid" id="getTheApp">
+        <div class="container">
+            <div class="row text-center">
+                <h2>Unduh Aplikasi</h2>
+            </div>
+            <div class="row storeIcon justify-content-center">
+                <div class="col-6 text-center">
+                    <a href="https://play.google.com/store"><img src="/img/googlePlay_store.png"
+                            alt="logoGooglePlay"></a>
+                </div>
+                <div class="col-6 text-center">
+                    <a href="https://www.apple.com/id/app-store/"><img src="/img/app_store.png"
+                            alt="logoAppleStore"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- AKHIR DARI GET THE APP -->
+
+    <!-- FOOTER -->
+    <div class="container-fluid" id="footer">
+        <footer id="contacts">
+
+
+            <div class="row justify-content-end firstRowFooter">
+
+            </div>
+            <div class="row justify-content-center">
+                <div class="col-6 text-center" id="logoExsolFooter">
+                    <a href="index.html"><img src="/img/logoExsol.svg" alt="logoExsol"></a>
+                </div>
+                <div class="col-6 text-center socialMediaLogoFooter" id="logoSocialMediaFooter">
+                    <a href="https://www.instagram.com/exsol_id/"><img src="/img/instagramVector.png"
+                            alt="logoExsol"></a>
+                    <a href="https://www.youtube.com"><img src="/img/youtubeVector.png" alt="logoYoutube"></a>
+                    <a href="https://api.whatsapp.com/send/?phone=6285713870537&text&app_absent=0"><img
+                            src="/img/whatsappVector.png" alt="logoWhatsapp"></a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col text-center copyright">
+                    <p>created with love by Explore Solo Indonesia | 2021</p>
+                </div>
+            </div>
+        </footer>
+    </div>
+    <!-- AKHIR DARI FOOTER -->
 
 
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
         crossorigin="anonymous"></script>
-
-
 </body>
 
 </html>
